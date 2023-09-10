@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RepositoryPatternSample.ClientModels\RepositoryPatternSample.ClientModels.csproj" />
+    <ProjectReference Include="..\RepositoryPatternSample.Entities\RepositoryPatternSample.Entities.csproj" />
+    <ProjectReference Include="..\RepositoryPatternSample.Infrastructure\RepositoryPatternSample.Infrastructure.csproj" />
+	  <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>
